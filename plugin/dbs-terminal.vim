@@ -11,7 +11,6 @@ import vim
 import subprocess
 
 terminal = vim.eval("a:terminal")
-print terminal
 subprocess.Popen(terminal)
 endpython
 endfunction
