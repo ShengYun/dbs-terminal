@@ -2,6 +2,7 @@ if !has('python')
 	finish
 endif
 
+" nnoremap <Leader>2 :call DBSOpenTerminal(['iTerm.sh'])<CR>
 " nnoremap <Leader>2 :call DBSOpenTerminal(['cmd'])<CR>
 " nnoremap <Leader>3 :call DBSOpenTerminal(['sh', '--login', '-i'])<CR>
 
